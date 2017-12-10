@@ -1,8 +1,9 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 import './App.css'
 import Note from './Note'
 
-var Board = React.createClass({
+class Board extends React.Component ({
             propTypes: {
                 count: function(props, propName) {
                     if(typeof props[propName] !== "number") {

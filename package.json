@@ -1,6 +1,6 @@
 {
   "name": "bulletin-board",
-  "version": "0.1.0",
+  "version": "1.0",
   "private": true,
   "dependencies": {
     "create-react-class": "^15.6.2",
